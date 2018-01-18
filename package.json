@@ -11,7 +11,7 @@
     "docs": "yarn jsdoc ./lib -r -d ./docs -R ./README.md && http-server -p 8044 ./docs/ -o -s -d false -P https://docs.burrito.work",
     "lint": "eslint **/*.{js,jsx} --quiet",
     "watch": "rollup -c --watch",
-    "build": "yarn docs && yarn run lint && yarn format && yarn run rollup -c"
+    "build": "yarn run lint && yarn format && yarn run rollup -c --environment=BUILD:production"
   },
   "dependencies": {
     "axios": "^0.17.1"
