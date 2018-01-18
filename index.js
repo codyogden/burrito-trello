@@ -1,3 +1,7 @@
 const Trello = require('./lib/Trello');
+const TrelloTokenAuth = require('./lib/TrelloTokenAuth');
 
-module.exports = (config) => new Trello(config); 
+module.exports = {
+  Trello,
+  TrelloTokenAuth
+}
