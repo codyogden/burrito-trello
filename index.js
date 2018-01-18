@@ -1,1 +1,3 @@
-module.exports = require('./lib/Trello');
+const Trello = require('./lib/Trello');
+
+module.exports = (config) => new Trello(config); 
