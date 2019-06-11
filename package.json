@@ -1,6 +1,6 @@
 {
   "name": "burrito-trello",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "A better Trello API for node and the browser.",
   "main": "index.js",
   "author": "Cody Ogden <cody@codyogden.com>",
